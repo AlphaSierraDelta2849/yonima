@@ -41,7 +41,7 @@ class _HomeState extends State<Home> {
                       children:[
                        CircleAvatar(
                       radius:40,
-                      backgroundColor: Colors.grey,
+                      backgroundColor: Color.fromRGBO(240, 240, 240, 1),
                       child: Icon(Icons.person,color: Colors.white,size:50),
                     ),
                         Text('Zack,Sy',style: TextStyle(color: Colors.white,fontStyle: FontStyle.italic),)
@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
                     bottom: 0,
                       child: Container(
                         decoration: const BoxDecoration(
-                          color: Colors.orange,
+                          color: Color.fromRGBO(255, 189, 89, 1),
                           borderRadius: BorderRadius.only(
                             topRight: Radius.circular(50),
                           )
@@ -97,7 +97,7 @@ class _HomeState extends State<Home> {
                 width: width,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
-                    color: Colors.grey
+                    color: Color.fromRGBO(240, 240, 240, 1)
                 ),
                 padding: const EdgeInsets.only(
                   left: 32,
@@ -129,7 +129,7 @@ class _HomeState extends State<Home> {
                   width: width,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: Colors.grey
+                      color: Color.fromRGBO(240, 240, 240, 1)
                   ),
                   padding: const EdgeInsets.only(
                     left: 32,
@@ -161,7 +161,7 @@ class _HomeState extends State<Home> {
                   width: width,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: Colors.grey
+                      color: Color.fromRGBO(240, 240, 240, 1)
                   ),
                   padding: const EdgeInsets.only(
                     left: 32,
@@ -193,7 +193,7 @@ class _HomeState extends State<Home> {
                   width: width,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: Colors.grey
+                      color: Color.fromRGBO(240, 240, 240, 1)
                   ),
                   padding: const EdgeInsets.only(
                     left: 32,

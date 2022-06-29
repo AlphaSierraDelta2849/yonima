@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:yonima/screens/authentification.dart';
 import 'package:yonima/screens/delivery.dart';
 import 'package:yonima/screens/home.dart';
+import 'package:yonima/screens/infoProfile.dart';
 import 'package:yonima/screens/login.dart';
 import 'package:yonima/screens/profile.dart';
 
 void main() {
   runApp( MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: LoginScreen(),
+    home: FormProfile(),
   ));
 }
 
@@ -45,8 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final bottomNavBarItems=<Widget>[
     Icon(Icons.home,size: 30, semanticLabel: 'Accueil',),
-    Icon(Icons.delivery_dining,semanticLabel: 'Livraison',),
-    Icon(Icons.person, size: 30,semanticLabel: 'Profil',)
+    Icon(Icons.send,semanticLabel: 'Livraison',),
+    Icon(Icons.delivery_dining, size: 30,semanticLabel: 'Profil',)
   ];
 
   @override
